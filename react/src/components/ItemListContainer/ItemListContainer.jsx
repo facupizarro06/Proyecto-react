@@ -1,6 +1,6 @@
 import { useState, useEffect} from "react";
 import { useParams } from "react-router-dom";
-import arrayProducts from '../Json/arrayProducts.json'
+import arrayProducts from '../Json/ArrayProducts.json'
 import ItemList from '../ItemList'
 
 import './ItemListContainer.css'
@@ -26,7 +26,7 @@ const ItemListContainer =() => {
     }
     };
      fetchData();
-} [id])
+}, [id])
     
     
     

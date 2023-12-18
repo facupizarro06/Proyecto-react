@@ -8,18 +8,21 @@ function NavBar() {
   return (
     <div>
       <Navbar bg="dark" data-bs-theme="dark">
-        
-        { <Container>
-          <Navbar.Brand href="#home"> <Logo/> </Navbar.Brand>
+
+        <Container>
+          <Navbar.Brand to="/"> <Logo /> </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Consolas</Nav.Link>
-            <Nav.Link href="#features">Juegos</Nav.Link>
-            <Nav.Link href="#pricing">Mandos</Nav.Link>
-            <Nav.Link href="#pricing"> <CartWidget/> </Nav.Link>
+            <link to="/" className='pestaña'>Home</link>
+
+            <link to="/category/monitores" className='pestaña'>Monitores</link>
+
+            <link to="/category/teclados" className='pestaña'>Teclados</link>
+            <link to="/category/auriculares" className='pestaña'>Auriculares</link>
           </Nav>
-        </Container> }
+          <link to="/cart"> <cartWidget/></link>
+        </Container>
       </Navbar>
-      </div>
+    </div>
   );
 }
 

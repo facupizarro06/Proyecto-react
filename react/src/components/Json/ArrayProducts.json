@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "nombre": "Monitor Samsung",
+        "descripcion": "Monitor Samsung 19'' hd color negro pantalla LCD",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_980419-MLU72749847512_112023-O.webp",
+        "precio": 20000.00,
+        "stock": 50,
+        "categoria": "monitores"
+    },
+    {
+        "id": 2,
+        "nombre": "Monitor Daewoo",
+        "descripcion": "Monitor Daewoo 19 pulgadas entrada HDMI full hd",
+        "imagen": "https://mla-s1-p.mlstatic.com/783695-MLA48691081510_122021-F.jpg",
+        "precio": 30000.00,
+        "stock": 30,
+        "categoria": "monitores"
+    },
+    {
+        "id": 3,
+        "nombre": "Teclado Gamer Xpg",
+        "descripcion": "Teclado Gamer mecanico con retroiluminacion rgb",
+        "imagen": "https://mla-s1-p.mlstatic.com/627277-MLA48343269257_112021-F.jpg",
+        "precio": 8500.00,
+        "stock": 20,
+        "categoria": "teclados"
+    },
+    {
+        "id": 4,
+        "nombre": "Teclado gamer Redrgragon color blacno",
+        "descripcion": "Teclado Gamer Redragon color blanco retroiluminado con rgb con conectividad bluetooth",
+        "imagen": "https://mexx-img-2019.s3.amazonaws.com/Teclado-Gamer-Redragon-K530W-RGB-PRO-Draconic-Rgb_45296_1.jpeg",
+        "precio": 17750.00,
+        "stock": 25,
+        "categoria": "teclados"
+    },
+    {
+        "id": 5,
+        "nombre": "Auriculares Noga",
+        "descripcion": "Auriculares Noga color rosado con conexion bluetooth con puerto de carga USB",
+        "imagen": "//acdn.mitiendanube.com/stores/001/593/734/products/ng-a100bt-rj-angulo-554a80fc2c8cfb6e8316986747330025-50-0.webp",
+        "precio": 15500.00,
+        "stock": 15,
+        "categoria": "auriculares"
+    },
+    {
+        "id": 6,
+        "nombre": "Auriculares inalambricos Phlips",
+        "descripcion": "Auriculares Philips inalambricos color negro con reduccion de sonido pro y control tactil",
+        "imagen": "https://images.philips.com/is/image/PhilipsConsumer/TAH8506BK_00-IMS-es_AR?wid=420&hei=360&$jpglarge$",
+        "precio": 22950.00,
+        "stock": 10,
+        "categoria": "auriculares"
+
+    }
+ 
+]
