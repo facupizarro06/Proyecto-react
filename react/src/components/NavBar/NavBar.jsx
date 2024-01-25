@@ -3,26 +3,32 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import CartWidget from '../CartWidget/CartWidget';
 import Logo from '../Logo/Logo';
+import './NavBar.css'
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
   return (
-    <div>
-      <Navbar bg="dark" data-bs-theme="dark">
-
-        <Container>
-          <Navbar.Brand to="/"> <Logo /> </Navbar.Brand>
+    <Navbar bg="dark" data-bs-theme="dark" expand="lg">
+      <Container>
+        <NavLink to="/" className="navbar-brand">
+          <Logo />
+        </NavLink>
+        <Navbar.Toggle aria-controls="navbar-nav" />
+        <Navbar.Collapse id="navbar-nav">
           <Nav className="me-auto">
-            <link to="/" className='pestaña'>Home</link>
-
-            <link to="/category/monitores" className='pestaña'>Monitores</link>
-
-            <link to="/category/teclados" className='pestaña'>Teclados</link>
-            <link to="/category/auriculares" className='pestaña'>Auriculares</link>
+            <NavLink to="/" className='pestaña'>Home</NavLink>
+            <NavLink to="/category/monitores">Monitores</NavLink>
+            <NavLink to="/category/auriculares">Auriculares</NavLink>
+            <NavLink to="/category/teclado">Teclado</NavLink>
           </Nav>
-          <link to="/cart"> <cartWidget/></link>
-        </Container>
-      </Navbar>
-    </div>
+          <NavLink to="/cart" className="navbar-cart">
+            <button className="bi bi-cart">
+              <CartWidget />
+            </button>
+          </NavLink>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar >
   );
 }
 

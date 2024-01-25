@@ -1,33 +1,20 @@
 #root {
   width: 100%;
-  margin: 0 auto;
-  list-style-type: none;
-  display: inline;
-
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
-/*.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.bienvenida{
+  font-family:monospace;
+  font-size: large;
+  padding: 10px 450px 20px 450px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.me-auto{
+  margin: auto;
 }
-*/
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
@@ -35,6 +22,7 @@
 }
 
 .card {
+  margin-top: 15px;
   padding: 2em;
 }
 
